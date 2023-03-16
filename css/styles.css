@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&display=swap');
+*{margin: 0; padding:0}
+
+body {font-family: 'Inter'; 
+	background-color:#5E78F9; 
+	color:black;
+	}
+
+nav a {padding: 20px; color:black; display:inline-block; text-decoration: none;background-color:#816AFF;border-radius: 10px;}  
+
+nav a:hover {background-color: white; color: black}
+
+nav {padding: 40px;box-sizing: border-box}
+.pquiensoy p {color:black;font-weight: 900;margin-top: 20px}
+a {color:black; font-size: 30px;}
+.a p {text-decoration: none}
+.logoprincipal {width: 300px;border-radius: 40%}
+.logoprincipal:hover {opacity:0.5;}
+
+#section {width: 80%;margin:0 auto;padding: 0.5px;}
+.fotoesperar img{ width:100%;}
+.tituloesperar h2 {
+	text-align: center}
+.esperar{border:2px solid black;border-radius: 10px;margin-bottom: 20px;}
+.queEspero h1 {margin-bottom: 20px}
+.textoesperar p {padding:10px;}
+
+header {text-align: center; width:100%;top:0;background-color:#5E78F9;position:relative}
+
+h1 {font-size: 55px;background-color:#898EFF;display:inline-block;border-radius: 10px;}
+
+.fotomia {filter:grayscale(100%);margin-top:20px;margin-bottom: 20px}
+.fotomia:hover {filter: grayscale(0%)}
+
+.apodo h2 {margin:20px;font-size:50px;font-weight: 600;background-color:#898EFF}
+.apodomeme {margin-bottom: 20px}
+
+
+.cajacontenedoragustos {display:flex;}
+
+.cajacontenedoragustos div { width:48%; margin:1%; 
+    padding: 10px; box-sizing: border-box; background-color: white; color:black;border-radius: 10px 
+}
+.cajacontenedoragustos div img { width:80%; display: block; margin: 20px auto}
+.cajacontenedoragustos h2 {font-size:40px}
+
+
+section {text-align: center;width: 100%;}
+
+
+footer {background-color:#A1AFFF; color:white; text-align: center;width: 100%; box-sizing: border-box;}
+
+.imagenfooter {width: 300px; border-radius: 20%;} 
+.imagenfooter:hover {opacity:0.5;}
+
+p {color:black;font-size:20px;}
+
+.pfooter p {color: black; text-align: center;font-size: 25px;font-weight: 300}
+.imagenfooter {width: 300px;border-radius: 40%}
+
+.botonsubir {position:fixed;right: 0; bottom: 0; background-color:orangered; color: #fff; padding: 10px;text-decoration: none}
+
+
+	
+
+
+
